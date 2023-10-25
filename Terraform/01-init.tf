@@ -24,7 +24,7 @@ locals {
 resource "random_string" "windowspass" {
   length           = 16
   special          = true
-  override_special = "-_"
+  override_special = "-_="
 
 }
 
@@ -32,7 +32,7 @@ resource "random_string" "windowspass" {
 resource "random_string" "linuxpass" {
   length           = 16
   special          = true
-  override_special = "-_"
+  override_special = "-_="
 
 }
 
